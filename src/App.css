@@ -1,0 +1,117 @@
+a{
+  text-decoration: none;
+}
+.App {
+  text-align: center;
+  width: 320px;
+  margin: 50px auto;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.icons{
+  color: blue;
+}
+.header{
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.subHeader{
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #a9a5a5;
+  margin-bottom: 10px;
+}
+
+.teamName{
+  text-align: left;
+  width: 95%;
+}
+.teamName div {
+  font-size: 12px;
+  color: #a9a5a5;
+  padding: 4px 0px;
+}
+.headerName{
+  font-size: 14px !important;
+  color: #000 !important;
+}
+.teamMember{
+  display:inline-flex;
+  border-bottom: 1px solid lightgrey;
+  margin: 10px;
+  width: 100%;
+  padding-bottom: 10px;
+}
+.clickSection{
+  width: 5%;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.memberLogo{
+  width:50px;
+  padding:10px;
+  padding-top: 0px;
+}
+
+.memberLogo i{
+  font-size: 44px;
+  color: lightgray;
+}
+
+.floatRight{
+  text-align: right;
+}
+.floatLeft{
+  text-align: left;
+}
+.inputElement{
+  width: 90%;
+  padding: 10px;
+  margin: 10px auto;
+}
+.radioClass{
+  padding: 10px 0px;
+  border-bottom: 1px solid lightgray;
+}
+.actionButton{
+  padding: 10px 20px;
+}
+.deleteBtn{
+  float: left;
+  color: red;
+  background: white;
+  box-shadow: none;
+  border: 1px solid lightgray;
+}
+.saveBtn{
+  float: right;
+  color: white;
+  background: #6681e2;
+  box-shadow: none;
+  border: none;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
