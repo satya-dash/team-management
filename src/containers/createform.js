@@ -57,7 +57,7 @@ class CreateForm extends Component {
 		          <Link to="/"><i className="material-icons icons">clear</i></Link>
 		        </div>
 		        <div className="floatLeft" style={{marginLeft:10}}>
-		        	<h2>Add a team member</h2>
+		        	<h2>{isEdit ? `Edit` : `Add`} a team member</h2>
 		          	<h5>{isEdit ? `Edit contact info,`: `Set email,`} location and role</h5>
 		        </div>
 		        <hr/>
